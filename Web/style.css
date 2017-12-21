@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+    color: #fff;
+    background-color: #202C39;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/ac/8c/2e/ac8c2efad58b553f44df674a53bc3bb4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#wrapper {
+    background-color: rgba(0,0,0,0.6);
+    height:     auto;       /* These two lines were the key. */
+    min-height: 100%
+}
+body#thankyou #wrapper {
+    padding: 15px;
+}
+.h1, h1 {
+    font-size: 28px;
+    margin-top: 0;
+    padding-top: 10px;
+}
+a {
+    color: #fff;
+}
+.alert {
+    margin: 10px;
+}
+.btn-default {
+    margin: 10px 0;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+#difusion {
+    margin-top: 10px;
+}
+
+.share-post {
+    border-top: 0;
+    margin-top: 20px;
+    padding-top: 0;
+}
+
+.share-post a {
+    display: inline-block;
+    color: white;
+    padding: 0 1em;
+    line-height: 2em;
+    margin: 0.1em;
+}
+
+.share-post a:hover {
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+
+.share-post .facebook {
+    background: #3b5998;
+}
+
+.share-post .twitter {
+    background: #55acee;
+}
+
+.share-post .googleplus {
+    background: #dd4b39;
+}
+
+.share-post .pinterest {
+    background: #cc2127;
+}
